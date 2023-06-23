@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    /* background-image: url(stacked-steps-haikei.svg); */
+    background-color: #3f3f3f;
+    text-align: center;
+  } 
+  
+  h1 {
+    text-align: center;
+    /* color: #fff;
+    background-image: radial-gradient(circle, red, yellow, green); */
+    font-size: 72px;
+    background: -webkit-linear-gradient(#d0dd15,yellow, rgb(58, 245, 89));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  
+  }
+    
+  .completed {
+    text-decoration: line-through;
+    /* color: green; */
+    color: rgb(58, 245, 89);
+  }
+  
+  .incomplete {
+    display: none;
+    /* visibility:hidden; */
+  }
+  li{
+    justify-content: space-between;
+    font-size: 30px;
+    color: aqua;
+    
+  }
